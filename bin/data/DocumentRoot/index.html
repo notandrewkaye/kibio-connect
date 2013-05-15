@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>kib.io</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="./common/css/bootstrap.css" rel="stylesheet" media="screen">
+    
+    <style>
+    @import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+    /* fontawesome */
+    [class*="fontawesome-"]:before {
+      font-family: 'FontAwesome', sans-serif;
+    }
+
+    body {
+      padding-top: 60px;
+      padding-bottom: 40px;
+      background-color: #00ADEE;
+    }
+
+    .hero-unit {
+    padding: 12px 24px 24px 24px;
+    margin:12px;
+    font-size: 18px;
+     font-weight: 200;
+    line-height: 0px;
+    color: inherit;
+    background-color: #0071BC;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    }
+
+    h3{
+      color:white;
+      margin:0 auto;
+      margin-bottom:10px;
+      font-weight:normal;
+    }
+    .btn-primary{
+      background-image: linear-gradient(#00ADEE, #00ADEE);
+    }
+    .btn-primary:hover{
+      background-image: linear-gradient(#00ADEE, #00ADEE);
+      color: #ffffff;
+      background-color: #00ADEE;
+    }
+
+
+    .navbar-inner{
+    border-radius:0px;
+    background: #000 !important; 
+    background-image: none;
+    background-repeat: no-repeat;
+    filter: none !important;
+    border-top:1px solid #00ADEE !important;
+    border-bottom:1px solid #00ADEE !important;
+    border-left:0px !important;
+    border-right:0px !important;
+    }
+
+    .navbar {
+    display: block;
+    font-size: 20px;
+    font-weight: 200;
+    color: #777777;
+    text-shadow: 0 1px 0 #ffffff;
+    }
+
+    nav.li.active {
+    background-color: none;
+    }
+    .instructions{
+      background-color:#00ADEE;
+      margin:0 auto;
+      width:auto;
+    }
+    .instructions{
+      text-align: center;
+    }
+
+    .instructionSteps{
+      color:#0F75BC;
+      font-size: 22px;
+      margin:10px;
+      float:right;
+    }
+    .instructionSteps span{
+      margin-right:24px;
+    }
+    .instructionSteps:after{
+      clear:both;
+    }
+    .circleactive{
+      color: white;
+    }
+
+    .headerBullet{
+      color:#00ADEE;font-size:90%;position:relative;top:-1px;
+    }
+
+    #leftArrow, #rightArrow{
+      width:74px;
+      height:76px;
+      min-width:74px;
+      min-height:76px;
+      background-position: center center;
+      cursor:pointer;
+      position:fixed;
+      top:40%;
+    }
+    #leftArrow{
+      left:0;
+      background-image: url(./img/arrows_pixels_blue-left.png);
+    }
+    #leftArrow:hover{
+      background-image: url(./img/arrows_pixels_white-left.png); 
+    }
+
+    #rightArrow{
+      right:0;
+      background-image: url(./img/arrows_pixels_blue-right.png);
+    }
+    #rightArrow:hover{
+      background-image: url(./img/arrows_pixels_white-right.png);
+    }
+
+    </style>
+    
+    <link href="./common/css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="icon" href="./common/img/favicon.ico" type="image/x-icon">
+  </head>
+  
+  <body>
+  <div class="navbar navbar-fixed-top">
+   <div class="navbar-inner">
+     <div class="container">
+        <a class="brand" href="index.html"> <img src="./common/img/kibio.mark-white.png"></a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="instructionSteps">
+        <span class="fontawesome-circle-blank"></span>
+        <span class="circleactive fontawesome-circle"></span>
+        <span class="fontawesome-circle-blank"></span>
+        <span class="fontawesome-circle-blank"></span>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="hero-unit offset1 span10">
+        <h3>
+          <span class="fontawesome-circle headerBullet"></span>
+          Set Up
+        </h3>
+        <div class="instructions">
+          <img src="./img/kibio.set.up-10.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="navArrows row span12">
+    <div id="leftArrow" class="span1">
+      <!-- <img src="./img/arrows_pixels_blue-left.png"> -->
+    </div>
+    <div id="rightArrow" class="span1 offset10">
+      <!-- <img src="./img/arrows_pixels_blue-right.png"> -->
+    </div>
+  </div>
+    <script src="./common/js/jquery.js"></script>
+    <script src="./common/js/bootstrap.min.js"></script>
+  </body>
+</html>
